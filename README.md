@@ -59,6 +59,11 @@ Winter: Imports spike, especially in December
 
 ⚠️ Although annual production exceeds consumption, seasonal variations cause import dependence in winter.
 
+
+![image alt](https://github.com/soubhisaad/Swiss-Energy-Analytics-Project-Soubhi-Saad/blob/9f911ea48a8c31957f02e7a4193f70c24b7ac9bb/Power%20BI%20Dashboard%201.png)
+
+
+
 **Canton-Level Production vs. Consumption**
  - Cantons like Aargau (AG) and Valais (VS) produce more than they consume.
  - Others like Zurich (ZH) and Geneva (GE) consume far more than they produce.
