@@ -46,7 +46,7 @@ To simplify modeling and visualization, some analyses aggregate the data to hour
 Surplus in summer (hydropower peak), deficit in December.
 
 **Imports and Exports**
-Summer: Switzerland exports electricity (mostly hydropower)
+Summer: Switzerland exports electricity (mostly hydropower).
 Winter: Imports spike, especially in December
 
 
@@ -76,3 +76,38 @@ Switzerland is energy-exporting in summer (hydropower surplus).
 📊 The country is not fully energy-autonomous year-round, despite strong seasonal performance.
 
 _"Cela confirme que la Suisse n’est pas totalement autosuffisante en électricité sur l’année, même si elle produit beaucoup à certains moments."_
+
+
+
+**Energy Machine Learning Models**
+- Random Forest (RF)
+- XGBoost (XGB)
+
+Models trained to predict hourly energy consumption totals
+
+⚙️ Feature Engineering
+- Lag features: lag_1h, lag_24h
+- Time features: hour, day of week, is_weekend
+- Rolling means: roll_6h, roll_24h
+- Grid data: grid_feed_in, net_outflow
+
+**📊 Prediction Performance**
+- XGBoost better on volatile 15-min targets
+- Random Forest (RF) excels on aggregated hourly predictions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
