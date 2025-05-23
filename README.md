@@ -1,17 +1,78 @@
-# Swiss-Energy-Analytics-Forecasting-2025-
+# 🇨🇭 Swiss-Energy-Analytics Project - Built with ❤️ by Soubhi SAAD
 
-1. 📚 Background & Overview
-This end-to-end project analyzes, visualizes, and forecasts energy production and consumption in Switzerland using real-world grid data from Swissgrid. The aim is to generate deep insights into how electricity is used, exchanged, and balanced across the country — and to build predictive models that support operational planning and energy forecasting.
+A full-stack data science project analyzing Switzerland’s electricity landscape in 2024 — combining real energy data, interactive dashboards, statistical summaries, and machine learning predictions.
 
-The project combines:
+Data sourced from Swissgrid
+Built by Soubhi SAAD
 
-📊 Data wrangling & exploratory analysis (Python, Pandas)
+🔍 Objectives
+- Track monthly energy consumption vs production
+- Analyze regional (canton-level) energy autonomy
+- Visualize net energy balances and import/export patterns
+- Predict energy usage with Random Forest and XGBoost
+- Communicate insights using Power BI dashboards
 
-🧠 Machine learning models for short-term energy forecasting (Random Forest & XGBoost)
+🛠️ Tools & Technologies
+- Python (Pandas, Matplotlib, Seaborn)	-> Data cleaning & visualization
+- Power BI	-> Interactive reporting
+- Excel	-> Swissgrid dataset format .xlsx initial data exploration
+- VS Code	Development IDE
+- Scikit-learn, XGBoost	Machine learning
 
-📈 Visual storytelling in Power BI
 
-🌍 Canton-level energy insights and national trends
+Note: The public dataset can be found in this repository. Each day's data is recorded at 15-minute intervals, which means:
 
-🔮 Future forecasting for hourly consumption through December 2025
+There are 96 records per day (24 hours × 4 intervals per hour) the unit is in kWh.
 
+This high-resolution data allows for:
+- Detailed time series analysis
+- Accurate short-term forecasting
+- Peak load detection and consumption trends
+
+To simplify modeling and visualization, some analyses aggregate the data to hourly or daily totals, while others retain the 15-minute granularity to capture finer energy usage patterns.
+
+📈 Python Analysis Highlights
+
+**Monthly Energy Trends**
+- Total annual consumption: 61,626.68 GWh
+- Daily average: 167.92 GWh
+- Consumption peaks in winter (Jan, Dec) and dips in summer (Jun–Aug)
+
+**Production vs. Consumption**
+- Production significantly exceeds consumption in summer (Jul–Aug).
+- Winter months show a shortfall, with consumption surpassing production.
+
+**Net Energy Balance**
+Surplus in summer (hydropower peak), deficit in December.
+
+**Imports and Exports**
+Summer: Switzerland exports electricity (mostly hydropower)
+Winter: Imports spike, especially in December
+
+
+📊 Power BI Dashboard Insights
+**National Overview**
+  Metric	Value
+    - Total Produced	75.57 GWh
+    - Total Consumed	61.63 GWh
+    - Net Balance	+13.94 GWh
+
+⚠️ Although annual production exceeds consumption, seasonal variations cause import dependence in winter.
+
+**Canton-Level Production vs. Consumption**
+ - Cantons like Aargau (AG) and Valais (VS) produce more than they consume.
+ - Others like Zurich (ZH) and Geneva (GE) consume far more than they produce.
+
+**🌍 Foreign Trade Overview**
+- Imported energy: 636.43 GWh
+- Exported energy: 198.77 GWh
+- Net foreign balance: –437.65 GWh
+
+Switzerland imported significantly more electricity than it exported during the measured period, resulting in a net import balance of about 437.65 GWh.
+
+**🧠 Key Insights**
+Switzerland is energy-exporting in summer (hydropower surplus).
+❄️ Switzerland becomes energy-importing in winter due to heating demand and lower renewable output.
+📊 The country is not fully energy-autonomous year-round, despite strong seasonal performance.
+
+_"Cela confirme que la Suisse n’est pas totalement autosuffisante en électricité sur l’année, même si elle produit beaucoup à certains moments."_
