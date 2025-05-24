@@ -99,7 +99,7 @@ Models trained to predict hourly energy consumption totals
 
 ![image alt](https://github.com/soubhisaad/Swiss-Energy-Analytics-Project-Soubhi-Saad/blob/776207e4d887028048621bc525cc5c067287bb1c/Prediction%20accuracy%20of%20RF%20and%20XGBoost.png)
 
-
+Note: To continue this project, we could incorporate models like ARIMA or Prophet to enhance the predictive capabilities for future energy consumption trends.
 
 
 
