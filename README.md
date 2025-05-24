@@ -2,17 +2,17 @@
 
 A full-stack data science project analyzing Switzerland’s electricity landscape in 2024 — combining real energy data, interactive dashboards, statistical summaries, and machine learning predictions.
 
-Data sourced from Swissgrid
+Data sourced from **Swissgrid** : https://www.swissgrid.ch/en/home.html
 Built by Soubhi SAAD
 
-🔍 Objectives
+**🔍 Objectives**
 - Track monthly energy consumption vs production
 - Analyze regional (canton-level) energy autonomy
 - Visualize net energy balances and import/export patterns
 - Predict energy usage with Random Forest and XGBoost
 - Communicate insights using Power BI dashboards
 
-🛠️ Tools & Technologies
+**🛠️ Tools & Technologies**
 - Python (Pandas, Matplotlib, Seaborn)	-> Data cleaning & visualization
 - Power BI	-> Interactive reporting
 - Excel	-> Swissgrid dataset format .xlsx initial data exploration
@@ -31,28 +31,26 @@ This high-resolution data allows for:
 
 To simplify modeling and visualization, some analyses aggregate the data to hourly or daily totals, while others retain the 15-minute granularity to capture finer energy usage patterns.
 
-📈 Python Analysis Highlights
+**📈 Python Analysis Highlights**
 
-**Monthly Energy Trends**
+Monthly Energy Trends
 - Total annual consumption: 61,626.68 GWh
 - Daily average: 167.92 GWh
 - Consumption peaks in winter (Jan, Dec) and dips in summer (Jun–Aug)
 
-**Production vs. Consumption**
+Production vs. Consumption
 - Production significantly exceeds consumption in summer (Jul–Aug).
 - Winter months show a shortfall, with consumption surpassing production.
 
-**Net Energy Balance**
-Surplus in summer (hydropower peak), deficit in December.
+Net Energy Balance : Surplus in summer (hydropower peak), deficit in December.
 
-**Imports and Exports**
-Summer: Switzerland exports electricity (mostly hydropower).
-Winter: Imports spike, especially in December
+Imports and Exports
+ - Summer: Switzerland exports electricity (mostly hydropower).
+ - Winter: Imports spike, especially in December
 
 
-📊 Power BI Dashboard Insights
-**National Overview**
-  Metric	Value
+**📊 Power BI Dashboard Insights**
+National Overview & Metric	Value
     - Total Produced	75.57 GWh
     - Total Consumed	61.63 GWh
     - Net Balance	+13.94 GWh
@@ -61,7 +59,6 @@ Winter: Imports spike, especially in December
 
 
 ![image alt](https://github.com/soubhisaad/Swiss-Energy-Analytics-Project-Soubhi-Saad/blob/9f911ea48a8c31957f02e7a4193f70c24b7ac9bb/Power%20BI%20Dashboard%201.png)
-
 
 
 **Canton-Level Production vs. Consumption**
