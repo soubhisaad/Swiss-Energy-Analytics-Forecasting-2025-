@@ -50,9 +50,9 @@ Imports and Exports
 
 **📊 Power BI Dashboard Insights**
 National Overview & Metric	Value
-    - Total Produced	75.57 GWh
-    - Total Consumed	61.63 GWh
-    - Net Balance	+13.94 GWh
+- Total Produced	75.57 GWh
+- Total Consumed	61.63 GWh
+- Net Balance	+13.94 GWh
 
 ⚠️ Although annual production exceeds consumption, seasonal variations cause import dependence in winter.
 
