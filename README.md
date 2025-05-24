@@ -3,7 +3,6 @@
 A full-stack data science project analyzing Switzerland’s electricity landscape in 2024 — combining real energy data, interactive dashboards, statistical summaries, and machine learning predictions.
 
 Data sourced from **Swissgrid** : https://www.swissgrid.ch/en/home.html
-Built by Soubhi SAAD
 
 **🔍 Objectives**
 - Track monthly energy consumption vs production
