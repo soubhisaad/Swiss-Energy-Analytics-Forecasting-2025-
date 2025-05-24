@@ -13,7 +13,7 @@ Data sourced from **Swissgrid** : https://www.swissgrid.ch/en/home.html
 
 **🛠️ Tools & Technologies**
 - Python (Pandas, Matplotlib, Seaborn)	-> Data cleaning & visualization
-- Power BI	-> Interactive reporting
+- Power BI	-> DAX + Interactive reporting
 - Excel	-> Swissgrid dataset format .xlsx initial data exploration
 - VS Code	Development IDE
 - Scikit-learn, XGBoost	Machine learning
